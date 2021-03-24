@@ -7,9 +7,9 @@ Cloud Skills Challenge is a gamified experience powered by Microsoft Learn that 
 
 This repo has all the material for 3 flavors of the Cloud Skills Challenge:
 
-1. Azure Fundamentals Challenge
-2. Kubernetes Bootcamp
-3. Data Bootcamp
+1. [Azure Fundamentals Challenge] (https://github.com/azurept/csc/tree/main/Azure%20Fundamentals%20Challenge)
+2. [Kubernetes Bootcamp] (https://github.com/azurept/csc/tree/main/Kubernetes%20Bootcamp)
+3. [Data Bootcamp] (https://github.com/azurept/csc/tree/main/Data%20Bootcamp)
 
 For each of these challenges you will find:
 
