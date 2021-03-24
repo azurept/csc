@@ -11,7 +11,7 @@ This repo has all the material for 3 flavors of the Cloud Skills Challenge:
 2. Kubernetes Bootcamp
 3. Data Bootcamp
 
-For each challenge you will find:
+For each of these challenges you will find:
 
 1. Brief **description** of how the challenge/bootcamp works
 2. Sample **presentation file** to present to the customer
