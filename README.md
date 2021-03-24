@@ -9,7 +9,7 @@ This repo has all the materials to build and kick off one of three flavors of th
 
 1. Azure Fundamentals Challenge
 2. Kubernetes Bootcamp
-3. Data Bootcamp
+3. Analytics Bootcamp
 
 For each of these challenges you will find:
 
