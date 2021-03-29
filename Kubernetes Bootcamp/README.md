@@ -3,6 +3,10 @@
 1. **Meet with the customer**  
 
     Use the presentation "[KB] Customer Facing Deck" to present the bootcamp, its timeline and if you choose to do them, the friday workshops and talks.
+    
+    In case you opt to have friday sessions, you should, by this point, have the speakers already defined (it can be you, a partner, a GBB, it is totally up to you). As a suggestion, in the folder "Session PPT" you will find the presentations used in each week on a previous Bootcamp.
+    
+    **[Rita] Como Tratar dos Goodie Bags?**
 
 2. **Create the Challenge**  
 
@@ -26,4 +30,6 @@
     
     The meeting request should be attached to the "Kubernetes Bootcamp - Convite!" email so that, when the participants follow the instructions given on the email and add the meeting to their callendar, you will have access to their emails for your weekly communications. **(VER RGPD E SE PODEMOS FAZER LANDING PAGE COMO NUM EVENTO)** 
 
-4. 
+4. **Follow up with the participants on a weekly basis**
+
+    We've prepared in advance 4 email templates that should be send in each respective week. This emails aim to remind every participant to complete the recommended modules, and to attend the friday sessions. Due to the nature of this emails, we recommend that they are send towards the end of each week and before the friday sessions so Thursday mornings should work out nicely.
