@@ -5,5 +5,8 @@ Use the presentation "[KB] Customer Facing Deck" to present the bootcamp, its ti
 
 2. **Create the Challenge**
 
-Go to: [https://cloudskillschallenge.docs.microsoft.com/csc/create] (https://cloudskillschallenge.docs.microsoft.com/csc/create)
+Go to: https://cloudskillschallenge.docs.microsoft.com/csc/create
+
+  ⋅⋅*This challenge requires participants to accept ‘Official Rules’ to join: **No**
+  
 
