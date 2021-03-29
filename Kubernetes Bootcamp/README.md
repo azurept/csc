@@ -1,6 +1,7 @@
 # This is a step-by-step guide on How to setup a Kubernetes Bootcamp
 
 1. **Meet with the customer**  
+
     Use the presentation "[KB] Customer Facing Deck" to present the bootcamp, its timeline and if you choose to do them, the friday workshops and talks.
 
 2. **Create the Challenge**  
@@ -18,6 +19,7 @@
     - Let us know if this is a real or a test challenge: **This is real**  
   
 3. **Send the Invites for the Bootcamp**  
+
     Use the email template "Kubernetes Bootcamp - Convite!" to present and invite people to this Bootcamp. Ther should be a main point of contact within the customer, to help you spread this invites.  
     
     Before sending this invite, you should save the "Join the Challenge!" meeting request as an iCallender format as a reminder for all the participants to enter the competition (since it is only possible to join in on the first day of the competition, so make sure you edit the meeting request with the a small duration like 15 min so it doesn't look like a blocker, and set it to the first day of the competition).  
