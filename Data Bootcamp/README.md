@@ -1,4 +1,4 @@
-# This is a step-by-step guide on How to setup a Kubernetes Bootcamp
+# This is a step-by-step guide on How to setup a Data Bootcamp
 
 1. **Meet with the customer**  
 
@@ -16,7 +16,7 @@
     - Challenge type: **Collection**  
     - Primary subject matter: **Azure Apps & Infrastructure**  
     - Pre-made collection or provide collection URL: **Provide collection URL**  
-    - Collection URL: **https://docs.microsoft.com/en-us/users/ritasilveiradacosta-7854/collections/pe7eidg8oe774r**  
+    - Collection URL: **https://docs.microsoft.com/en-us/users/joaosalvado-7676/collections/ekgqajrd3602dw**  
     - Solo or Teams: **Solo**  
     - Participant type: **Event**  
     - Allow participants to opt-in to the Microsoft.Source developer community newsletter during challenge registration: **No**  
