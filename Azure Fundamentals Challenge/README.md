@@ -33,4 +33,4 @@
 
 4. **Follow up with the participants on a weekly basis**
 
-    We've prepared in advance 4 email templates that should be send in each respective week. This emails aim to remind every participant to complete the recommended modules, and to attend the friday sessions. Due to the nature of this emails, we recommend that they are send towards the end of each week and before the friday sessions so Thursday mornings should work out nicely.
+    We've prepared in advance 4 email templates that should be send in each respective week. This emails aim to remind every participant to complete the recommended modules, and to attend the friday sessions. Due to the nature of this emails, we recommend that they are send at the start of each week.
