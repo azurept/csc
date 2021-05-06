@@ -1,0 +1,13 @@
+version : '3'
+
+services:
+  demowebapp:
+    build: ./mywebapp 
+    ports:
+      - 80:80
+    depends_on:
+      - weatherapi
+  weatherapi:
+    build: ./WeatherApi
+    ports:
+      - 9000:9000

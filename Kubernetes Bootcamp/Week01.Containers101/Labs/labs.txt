@@ -1,0 +1,5 @@
+https://docs.microsoft.com/en-us/learn/modules/run-docker-with-azure-container-instances/
+
+https://docs.microsoft.com/en-us/learn/modules/intro-to-containers/
+
+

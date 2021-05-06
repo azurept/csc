@@ -1,0 +1,37 @@
+docker version
+
+docker images
+
+docker run -d -p 8080:80 tutum/wordpress
+
+docker images
+
+docker inspect IMAGE_ID
+
+docker ps
+
+docker run -d -p 8080:80 tutum/wordpress
+
+docker run -d -p 8080:80 tutum/wordpress
+
+docker ps
+
+docker stop ID
+
+docker ps -a
+
+docker start ID
+
+docker rm ID
+
+docker stop ID
+
+docker rm -f $(docker ps -q)
+
+docker ps
+
+docker ps -a
+
+
+
+

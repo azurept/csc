@@ -1,0 +1,18 @@
+docker-compose up -d
+
+docker ps
+docker images
+docker network ls
+
+docker-compose down
+docker ps
+docker images
+docker network ls
+
+docker-compose up --build -d
+
+docker-compose down
+docker ps -a
+docker-compose rm
+docker images
+docker-compose down --rmi all

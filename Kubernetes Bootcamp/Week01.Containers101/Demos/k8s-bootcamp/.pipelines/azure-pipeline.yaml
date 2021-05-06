@@ -1,0 +1,88 @@
+trigger:
+- main
+
+variables:
+  imageName: 'k8s-bootcamp'
+  imageTag: 'v$(build.buildId)'
+  fullImageName: '$(imageName):$(imageTag)'
+  containerRegistry: tibernacr-k8s-bootcamp
+
+stages:
+- stage: Build
+  displayName: Build & Push Image
+
+  jobs:
+  - job: BuildAndPushImage
+    displayName: Build Image
+    pool:
+      vmImage: ubuntu-latest 
+
+    steps:
+    - task: Docker@2
+      displayName: 'Build Image'
+      inputs:
+        containerRegistry: $(containerRegistry)
+        dockerFile: './Dockerfile'
+        command: 'buildAndPush'
+        repository: '$(imageName)'
+        tags: '$(imageTag)'
+
+    - task: replacetokens@3
+      inputs:
+        targetFiles: 'manifest/*.yaml'
+        encoding: 'auto'
+        writeBOM: true
+        actionOnMissing: 'warn'
+        keepToken: false
+        tokenPrefix: '__'
+        tokenSuffix: '__'
+        useLegacyPattern: false
+        enableTransforms: false
+        enableTelemetry: true
+
+    - task: PublishBuildArtifacts@1
+      inputs:
+        PathtoPublish: './manifest'
+        ArtifactName: 'k8s-manifest'
+        publishLocation: 'Container'
+
+- stage: DeployStaging
+  displayName: Deploy Staging
+
+  jobs:
+  - deployment: DeployStaging
+    displayName: Deploy Staging
+    pool:
+      vmImage: ubuntu-latest
+    environment: k8s-bootcamp.csc-k8s-staging
+    strategy:
+      runOnce:
+        deploy:
+          steps:      
+          - task: KubernetesManifest@0
+            displayName: Deploy to AKS
+            inputs:
+              action: deploy
+              manifests: |
+                ../k8s-manifest/deployment.yaml
+
+- stage: DeployProduction
+  displayName: Deploy Production
+
+  jobs:
+  - deployment: DeployProduction
+    displayName: Deploy Production
+    pool:
+      vmImage: ubuntu-latest
+    environment: k8s-bootcamp.csc-k8s-production
+    strategy:
+      runOnce:
+        deploy:
+          steps:      
+          - task: KubernetesManifest@0
+            displayName: Deploy to AKS
+            inputs:
+              action: deploy
+              manifests: |
+                ../k8s-manifest/deployment.yaml
+

@@ -1,0 +1,25 @@
+C:\work\aks\k8s-bootcamp
+
+dotnet publish -c Release -o published
+
+docker build -t myapp .
+
+docker images
+
+docker run -d -p 8000:80 myapp
+
+--------------------------
+
+docker build -t multiapp -f Dockerfile.multi .
+
+docker images
+
+docker run -d -p 9000:80 multiapp 
+
+--------------------------
+
+docker tag multiapp multiapp:beta
+
+docker tag multiapp:beta tiberna.azurecr.io/dockerdemo:alpha
+
+docker push tiberna.azurecr.io/dockerdemo:alpha
