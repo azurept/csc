@@ -1,4 +1,4 @@
-# This is a step-by-step guide on How to setup a Kubernetes Bootcamp
+# This is a step-by-step guide on How to setup a DIY Bootcamp
 
 1. **Meet with the customer**  
 
