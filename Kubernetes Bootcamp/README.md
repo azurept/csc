@@ -17,7 +17,7 @@
     - Challenge type: **Collection**  
     - Primary subject matter: **Azure Apps & Infrastructure**  
     - Pre-made collection or provide collection URL: **Provide collection URL**  
-    - Collection URL: **https://docs.microsoft.com/en-us/users/ritasilveiradacosta-7854/collections/pe7eidg8oe774r**  
+    - Collection URL: **https://learn.microsoft.com/pt-pt/users/joaosantos-8312/collections/kow4u4dzo0goyo**  
     - Solo or Teams: **Solo**  
     - Participant type: **Event**  
     - Allow participants to opt-in to the Microsoft.Source developer community newsletter during challenge registration: **Yes**  
